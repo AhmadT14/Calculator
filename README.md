@@ -20,7 +20,3 @@ Calculator Project/
 ├── style.css   # Styling for the calculator
 ├── calculator.js  # JavaScript logic for functionality
 ```
-
-## Author
-[Ahmad Tayeh]
-
