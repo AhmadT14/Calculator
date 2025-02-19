@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: fit-content;
+  margin: 0 auto;
+}
+.output {
+  width: 400px;
+  height: 100px;
+  background-color: black;
+  font-size: 40px;
+  color: white;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+.button {
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 40px;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #d8d9db;
+}
+
+.button:hover {
+  background-color: #ebebeb;
+}
+
+.clear-button {
+  border-left: 2px solid black;
+  width: 200px;
+}
+
+.number0-button {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 300px;
+}
+.equals-button {
+  border-bottom: 2px solid black;
+}
+
+.number7-button,
+.number4-button,
+.number1-button {
+  border-left: 2px solid black;
+}
+
+.equals-button,
+.multiplication-button,
+.addition-button,
+.subtraction-button,
+.division-button {
+  background-color: #df974c;
+  color: white;
+}
+.equals-button:hover,
+.multiplication-button:hover,
+.addition-button:hover,
+.subtraction-button:hover,
+.division-button:hover {
+  background-color: #dfb07e;
+}
